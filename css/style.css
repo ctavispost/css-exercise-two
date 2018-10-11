@@ -1,10 +1,11 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,128,128,.5);
   float: left;
   position: fixed;
   width: 100%;
@@ -32,6 +33,21 @@ nav {
   float: right;
 }
 
+.author {
+  font-style: italic;
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+}
+
+.story-text {
+  line-height: 1.5;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
 ul {
   list-style-type: none;
   float: right;
@@ -46,7 +62,72 @@ article {
   padding-top: 100px;
 }
 
-.container {
-  margin: 0 auto;
-  width: 50%;
+h1 {
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: .75em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+h4 {
+  font-size: 1em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+h5 {
+  font-size: .83em;
+  margin-top: .5m;
+  margin-bottom: .5em;
+}
+
+h6 {
+  font-size: .67em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+p {
+  /**display: block;**/
+  font-size: 1em;
+  text-align: left;
+  line-height: 1.5;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+figcaption {
+  font-size: .83em;
+  line-height: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #0030AC;
+}
+
+a:visited {
+  color: #0030AA;
+}
+
+a:hover {
+  color:#0030AE;
+}
+
+a:active {
+  color: #0030AF;
 }
