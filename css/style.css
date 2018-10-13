@@ -99,7 +99,6 @@ h6 {
 }
 
 p {
-  /**display: block;**/
   font-size: 1em;
   text-align: left;
   line-height: 1.5;
@@ -121,11 +120,11 @@ a:link {
 }
 
 a:visited {
-  color: #0030AA;
+  color: #4B0082;
 }
 
 a:hover {
-  color:#0030AE;
+  color:#8A2BE2;
 }
 
 a:active {
